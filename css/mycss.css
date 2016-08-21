@@ -1,5 +1,5 @@
 .masthead {
-    padding: 60px 0 80px;
+    padding: 50px 0 60px;
     margin-bottom: 0;
     color: #fff;
 }
@@ -35,9 +35,30 @@
 font-size: 25px;font-weight: bolder;}
 
 
+
+.skillcontent{background: #e5e5e5;}
+
+.content-wrapper{}
+.content{
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: left .5s cubic-bezier(0.250,0.460,0.450,0.940),width .4s ease,padding .4s ease,box-shadow .4s ease,margin .4s ease,border .4s ease;
+    transition: left .5s cubic-bezier(0.250,0.460,0.450,0.940),width .4s ease,padding .4s ease,box-shadow .4s ease,margin .4s ease,border .4s ease;
+    background-color: #f5f5f5;
+    border: 1px solid #d8d8d8;
+    border-bottom-width: 2px;
+    left: 0;
+    margin: 10px auto 20px auto;
+    max-width: 540px;
+    min-width: 320px;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+.content-header{max-width: 700px}
 /*screen size min-width 768 begin*/
 @media screen and (min-width: 768px){
-	.masthead {padding: 90px 0 110px;}
+	.masthead {padding: 60px 0 90px;}
 }
 
 /*screen size min-width 768 end*/
